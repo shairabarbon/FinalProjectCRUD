@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEDDB"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/emp_name"
+        android:layout_width="267dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#BF9270"
+        android:backgroundTintMode="src_in"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+        android:ems="10"
+        android:hint="Employee Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#292828"
+        app:layout_constraintBottom_toBottomOf="@+id/position"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <EditText
+        android:id="@+id/emp_id"
+        android:layout_width="267dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#BF9270"
+        android:backgroundTintMode="src_in"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="Employee ID"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#292828"
+        app:layout_constraintBottom_toBottomOf="@+id/position"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <EditText
+        android:id="@+id/position"
+        android:layout_width="268dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#BF9270"
+        android:backgroundTintMode="src_in"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+        android:ems="10"
+        android:hint="Position"
+        android:inputType="textCapWords"
+        android:textColorHint="#292828"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#BF9270"
+        android:backgroundTintMode="src_in"
+        android:digits="0123456789/-"
+        android:ems="10"
+        android:hint="Date Hired"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#292828"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp_name"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/cmdSearch"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#BF9270"
+        android:text="SEARCH"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <Button
+        android:id="@+id/cmdUpdate"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#BF9270"
+        android:text="UPDATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toEndOf="@+id/cmdDelete"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <Button
+        android:id="@+id/cmdDelete"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#BF9270"
+        android:text="DELETE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cmdSearch"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/cmdAdd"
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#BF9270"
+        android:text="ADD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="204dp"
+        android:layout_height="195dp"
+
+
+        android:background="@drawable/logoabc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/logoabc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

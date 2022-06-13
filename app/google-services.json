@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "249261965189",
+    "firebase_url": "https://finalproject-f04e9-default-rtdb.firebaseio.com",
+    "project_id": "finalproject-f04e9",
+    "storage_bucket": "finalproject-f04e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249261965189:android:457d8dd5b134a713fc4eec",
+        "android_client_info": {
+          "package_name": "com.example.fpbarbon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249261965189-13qme38p5rl2hb66kpd2bcg4llqmoqdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0rwOiCbYQ6Fo__NfrRairbghsHIj-R80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249261965189-13qme38p5rl2hb66kpd2bcg4llqmoqdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
